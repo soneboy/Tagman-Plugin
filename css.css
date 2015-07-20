@@ -1,0 +1,37 @@
+body{
+    background: darkred;
+}
+
+h1{
+    color:darkred;
+}
+#wrapper{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#wrapper input{
+    margin: 5px;
+}
+ #wrapper textarea{
+     margin: 5px;
+ }
+
+ #submit{
+     background: darkred;
+     color: #ffffff;
+ }
+#submitCode{
+    display: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+#submitCode textarea{
+    width: 400px;
+    height: 500px;
+}

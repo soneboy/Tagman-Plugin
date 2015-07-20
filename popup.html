@@ -1,0 +1,70 @@
+<html>
+ <head>
+     <title>Sonetov plugin</title>
+     <link rel="stylesheet" href="css.css">
+
+ </head>
+<body>
+ <div id="wrapper">
+
+ <h1>Tag Maniac</h1>
+     <p id="message"></p>
+   <h2>Param Names</h2>
+
+     <label for="param_value_name">Param value name:</label>
+     <input type="text" id="param_value_name" placeholder="Param Value" />
+
+  <label for="custom_key_name">Param key name:</label>
+  <input type="text" id="custom_key_name" placeholder="Custom Name" />
+
+
+<!--
+ <label for="param_number_name">Number of params:</label>
+ <input type="text" id="param_number_name" />
+-->
+
+ <h2>Placeholders</h2>
+     <label for="param_value_placeholder">Param value placeholder:</label>
+     <input type="text" id="param_value_placeholder" placeholder="param_value" />
+
+ <label for="custom_key_placeholder">Param key placeholder:</label>
+ <input type="text" id="custom_key_placeholder" placeholder="custom_name" />
+
+
+
+
+ <h2>Param Descriptions</h2>
+
+ <label for="param_value_description">Param value description:</label>
+ <textarea id="param_value_description" placeholder="Param Value"></textarea>
+
+ <label for="custom_key_description">Param key description:</label>
+ <textarea id="custom_key_description" placeholder="Custom Name"></textarea>
+
+     <h2>Example Values</h2>
+
+     <label for="param_value_example">Param value example:</label>
+     <input type="text" id="param_value_example" placeholder="value" />
+
+     <label for="custom_key_example">Custom key example:</label>
+     <input type="text" id="custom_key_example" placeholder="key" />
+
+ <h2>Fields numbers</h2>
+
+ <label for="fields_before">Fields before:</label>
+ <input type="text" id="fields_before" />
+
+ <label for="fields_count">Total fields:</label>
+ <input type="text" id="fields_count" />
+
+ <input type="submit" id="submitButton" value="Submit">
+
+     </div>
+ <div id="submitCode">
+     <textarea id="showCode"></textarea>
+     <input type="submit" value="Execute" id="execute" />
+ </div>
+ <script src="popup.js" type="text/javascript"></script>
+ <script src="execute.js" type="text/javascript"></script>
+</body>
+</html>
