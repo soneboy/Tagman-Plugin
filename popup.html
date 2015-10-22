@@ -5,6 +5,13 @@
 
  </head>
 <body>
+
+<div id="firstBox">
+    <button id="tagManiac">Key Values</button>
+    <button id="regilarShit">Regular Shit</button>
+    <button id="insertFieldButton">Insert Field</button>
+    <button id="codeReaderButton">Code Reader</button>
+</div>
  <div id="wrapper">
 
  <h1>Tag Maniac</h1>
@@ -29,9 +36,6 @@
 
  <label for="custom_key_placeholder">Param key placeholder:</label>
  <input type="text" id="custom_key_placeholder" placeholder="custom_name" />
-
-
-
 
  <h2>Param Descriptions</h2>
 
@@ -60,10 +64,68 @@
  <input type="submit" id="submitButton" value="Submit">
 
      </div>
+<div id="wrapper2">
+    <h1>Tagoholic</h1>
+    <p>How many different parameters?</p>
+    <select>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+</div>
+<div id="wrapper3">
+    <h1>Field correcter</h1>
+    <p>If you fail to add some field,go to fucked up template and click 'Duplicate' button.After that,fucked up template move to trash and navigate to duplicated template,than follow instruction bellow.</p>
+
+    <label for="new_field">Insert values after field:</label>
+    <input type="text" id="new_field" placeholder="1" required>
+
+    <label for="new_name">Name</label>
+    <input type="text" id="new_name" placeholder="Name" required>
+
+    <label for="new_placeholder">Placeholder</label>
+    <input type="text" id="new_placeholder" placeholder="Placeholder" required>
+
+    <select id="static_or_mapped">
+        <option value="static">static</option>
+        <option value="mapped">mapped</option>
+    </select><br/><br/>
+    <label for="new_required">Required</label>
+    <input type="checkbox" id="new_required" value="1"><br/>
+
+    <label for="new_example">Example value</label>
+    <input type="text" id="new_example" placeholder="value111" required>
+
+    <label for="new_description">Description</label>
+    <textarea id="new_description" required></textarea>
+    <button id="new_field_submit">Submit</button>
+
+</div>
  <div id="submitCode">
      <textarea id="showCode"></textarea>
      <input type="submit" value="Execute" id="execute" />
  </div>
+    <div id="codeReader">
+        <h1>Code Reader</h1>
+        <div id="submitCodeReader">
+        <textarea id="pasteCode" placeholder="Describe yourself here...">
+        </textarea>
+        <button id="codeReaderExecute">Submit</button>
+        </div>
+        <div id="executeCodeReader">
+              <textarea id="createdCode" placeholder="Describe yourself here..."></textarea>
+         <button id="codeReaderExecuteInject">Execute</button>
+            </div>
+        </div>
+    </div>
  <script src="popup.js" type="text/javascript"></script>
  <script src="execute.js" type="text/javascript"></script>
 </body>

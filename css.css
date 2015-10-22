@@ -10,6 +10,7 @@ h1{
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    display: none;
 
 }
 
@@ -34,4 +35,49 @@ h1{
 #submitCode textarea{
     width: 400px;
     height: 500px;
+}
+#wrapper2{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+#wrapper3{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: none;
+
+}
+#wrapper3 input {
+    margin-bottom: 15px;
+}
+#wrapper3 select{
+    margin-bottom: 15px;
+}
+
+#wrapper3 textarea{
+    margin-bottom: 15px;
+}
+#codeReader{
+      display: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+#pasteCode{
+    width: 300px;
+    height: 300px;
+}
+#executeCodeReader{
+    display: none;
+}
+#createdCode{
+    width: 300px;
+    height: 300px;
+    color:#9d9d9d;
 }
